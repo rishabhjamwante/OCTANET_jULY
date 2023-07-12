@@ -1,0 +1,33 @@
+body{
+    height: 100vh;
+    background: linear-gradient(to right, #010b4d, #9c0000);   
+}
+.container{
+    max-width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid white;
+    padding: 30px;
+    background-color: #ffdc60;
+    box-shadow: rgb(255, 221, 71) 0px 5px 15px;
+}
+.input-field{
+    text-align: center;
+}
+input[type="text"]{
+    color: #fff;
+    border: none;
+    background-color: #ffffff;
+    max-width: 400px;
+}
+.todos li{
+    background-color: #fff;
+    color: rgb(5, 0, 64);
+    font-weight: bold;
+}
+.delete{
+    cursor: pointer;
+    color: red;
+}
